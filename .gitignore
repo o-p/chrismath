@@ -1,0 +1,5 @@
+# Build folders
+/es/
+
+# Third party folders
+/node_modules/

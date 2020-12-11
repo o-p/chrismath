@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Chris 🎄 Math",
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "none",
+    "strict": true,
+    "outDir": "es",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "math/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.test.ts"
+  ]
+}
